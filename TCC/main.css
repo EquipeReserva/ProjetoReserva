@@ -1,0 +1,128 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: royalblue;
+    background-size: cover;
+
+
+}
+
+
+.inputs{
+
+   width: 500px;
+   height: 300px;
+   padding: 40px;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: whitesmoke;
+   text-align: center;
+   border-radius: 15px;
+   border-style: solid;
+   border-color: black;
+
+
+}
+
+.inputs input[type="email"], .inputs input[type="password"]{
+
+    border:0;
+    border-radius: 10px;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    border:1.5px solid royalblue;
+    padding: 14px 15px;
+    width: 200px;
+    outline: none;
+    transition: 0.30s;
+    font:arial;
+    font-size: 14px;
+
+}
+
+.inputs input[type="email"]:focus, .inputs input[type="password"]:focus{
+
+
+width: 280px;
+border-color: royalblue;
+
+
+
+}
+
+.inputs input[type="submit"] {
+
+    border:0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    border:1.5px solid royalblue;
+    outline: none;
+    transition: 0.30s;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateY(1em);
+    padding: 0 20px;
+
+}
+
+.inputs input[type="submit"]:hover {
+
+  background: royalblue;
+
+    }
+
+    #inscrever{
+
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        color:white;
+        outline:none;
+        transition: 0.30s;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 16px;
+        cursor:pointer;
+        font-weight: 300;
+    }
+
+    footer{
+
+        color:white;
+        text-align: center;
+        transform: translateY(35em);
+
+    }
+
+    a{
+
+        color: black;
+    }
+
+    a:hover{
+
+        color: royalblue;
+    }
+
+    #logo{
+
+        width: 180px;
+    }
+
+    #usuario{
+
+        padding-top: 28px;
+    }
+
